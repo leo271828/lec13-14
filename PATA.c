@@ -2,7 +2,6 @@
 #include<string.h>
 #define N 1000
 
-// Score : 86/100
 
 int main(){
     int distance, monster_blood, num = 0, idx = 0;
@@ -23,7 +22,7 @@ int main(){
     }
     // Compute the data
     int allow_cmd = 0, def_flag = 0;
-    for(int i=0;i<num && i<30;i++){
+    for(int i=0;i<=num && i<30;i++){
         def_flag = 0;
         if( strcmp(str[i], "PATA PATA PATA PON") == 0 ){
             allow_cmd++;
